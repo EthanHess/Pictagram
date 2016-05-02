@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BC15F0C9FFE31FBAB5F6746BDE6C401ADECFBFA8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "810FFBFE827690FF69CFD0F76C5B90F3A7E3112A" : 0,
+    "BC15F0C9FFE31FBAB5F6746BDE6C401ADECFBFA8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E99937AE-008B-47AB-8C56-86BA69FCE3F2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "810FFBFE827690FF69CFD0F76C5B90F3A7E3112A" : "",
+    "BC15F0C9FFE31FBAB5F6746BDE6C401ADECFBFA8" : "PictagramRepo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Pictagram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Pictagram\/Pictagram.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EthanHess\/RecipeDiary.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "810FFBFE827690FF69CFD0F76C5B90F3A7E3112A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/EthanHess\/Pictagram.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC15F0C9FFE31FBAB5F6746BDE6C401ADECFBFA8"
+    }
+  ]
+}

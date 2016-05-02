@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		01A2A6A6538EE7BDF46458E3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E17B71222340B199EFCE9FD /* Pods.framework */; };
+		27DD29741CD4094300A523F5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD29731CD4094300A523F5 /* Post.swift */; };
+		27DD29781CD40C9100A523F5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD29771CD40C9100A523F5 /* PostCell.swift */; };
 		27E619231CD2A258007902CB /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E619221CD2A258007902CB /* FBSDKCoreKit.framework */; };
 		27E619251CD2A265007902CB /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E619241CD2A265007902CB /* FBSDKLoginKit.framework */; };
 		27E619271CD2A27F007902CB /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27E619261CD2A27F007902CB /* Bolts.framework */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		23605ACCAB263C84D8342E4C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		27DD29731CD4094300A523F5 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		27DD29771CD40C9100A523F5 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		27E619221CD2A258007902CB /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		27E619241CD2A265007902CB /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		27E619261CD2A27F007902CB /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
@@ -55,6 +59,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27DD29751CD40BF200A523F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		27DD29761CD40C2E00A523F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		27DD29791CD40C9C00A523F5 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Subviews;
+			sourceTree = "<group>";
+		};
 		27F6D7531CCECD6F0065A442 = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +105,12 @@
 				27F6D75F1CCECD6F0065A442 /* AppDelegate.swift */,
 				27F6D7611CCECD6F0065A442 /* ViewController.swift */,
 				27F6D7731CCECDD90065A442 /* FeedViewController.swift */,
+				27DD29751CD40BF200A523F5 /* Model */,
+				27DD29731CD4094300A523F5 /* Post.swift */,
+				27DD29761CD40C2E00A523F5 /* Services */,
 				27E6192A1CD2AADD007902CB /* DataService.swift */,
+				27DD29771CD40C9100A523F5 /* PostCell.swift */,
+				27DD29791CD40C9C00A523F5 /* Subviews */,
 				27F6D7631CCECD6F0065A442 /* Main.storyboard */,
 				27F6D7661CCECD6F0065A442 /* Assets.xcassets */,
 				27F6D7681CCECD6F0065A442 /* LaunchScreen.storyboard */,
@@ -236,6 +266,8 @@
 				27F6D7741CCECDD90065A442 /* FeedViewController.swift in Sources */,
 				27F6D7601CCECD6F0065A442 /* AppDelegate.swift in Sources */,
 				27E6192B1CD2AADD007902CB /* DataService.swift in Sources */,
+				27DD29741CD4094300A523F5 /* Post.swift in Sources */,
+				27DD29781CD40C9100A523F5 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
