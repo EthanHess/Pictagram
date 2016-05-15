@@ -58,6 +58,10 @@ class PostCell: UITableViewCell {
         
         self.likesLabel.text = "\(post.likes)"
         
+        if let usrnm = post.username as? String {
+            usernameLabel.text = usrnm
+        }
+        
         if post.imageUrl != nil {
             
             //Use the cached image if there is one, otherwise download the image
@@ -70,10 +74,17 @@ class PostCell: UITableViewCell {
                     
                     if err == nil {
                         
-                        let img = UIImage(data: data!)!
-                        self.appImg.image = img
+                        if let img = UIImage(data: (data)!) {
                         
-                        FeedViewController.imageCache.setObject(image!, forKey: self.post!.imageUrl!)
+                            self.appImg.image = img
+                            
+                            if image != nil {
+                        
+                            FeedViewController.imageCache.setObject(image!, forKey: self.post!.imageUrl!)
+                                
+                            }
+                            
+                        }
                     }
                 })
             }

@@ -42,7 +42,7 @@ class Post {
     
     //initializer to write data
     
-    init(description: String?, imageUrl: String?, username: String) {
+    init(description: String?, imageUrl: String?, username: String?) {
         
         self._postDescription = description
         self._imageUrl = imageUrl
@@ -65,6 +65,10 @@ class Post {
         
         if let desc = dictionary["description"] as? String {
             self._postDescription = desc
+        }
+        
+        if let usernm = dictionary["username"] as? String {
+            self._username = usernm
         }
         
         self._postRef = DataService.sharedInstance.REF_POSTS.childByAppendingPath(self._postKey)
